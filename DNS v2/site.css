@@ -1,0 +1,128 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    margin:0 auto;
+    padding: 1.5rem;
+}
+
+.container {
+    max-width:800px;
+    margin:0 auto; 
+    overflow-x: 0 auto; 
+}
+
+.dark-section {
+    color: white;
+    background-color:#118C4F;  
+}
+/* .dark-trans{
+    color: white;
+    background: rgba(17,140,79,1);
+} */
+
+
+.light-section {
+    color: black;
+    background-color:#f9dadb; 
+  
+    
+}
+/* .light-trans{
+    color: black;
+    background: rgba(249,218,219,1);
+    opacity: 1;
+
+} */
+
+/* div{
+    word-wrap: break-word;
+} */
+
+.img-responsive {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto; 
+    background-color:#118C4F 
+}
+
+.title img {
+    margin: 1rem 0rem 1rem 0rem;
+}
+  
+.title .banner {
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    color: #f9dadb;
+}
+
+.services-bg {
+    background: url("img/DNS solutions.jpg") no-repeat center center fixed;
+    background-color: rgba(17,140,79,1);
+    background-size: cover;
+    opacity: 0.9;
+        
+}
+
+.calculator-bg {
+    background: url("img/calculator.jpg") no-repeat center center fixed;
+    background-color: rgba(17,140,79,1);
+    background-size: cover;
+    opacity: 0.9;       
+}
+
+.contact-bg {
+    background: url("img/portal.jpg") no-repeat center center fixed;
+    background-color: rgba(17,140,79,1);
+    background-size: cover;
+    opacity: 0.9;       
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    flex-grow: 1;
+}
+
+/* if I want to change the color of a word or words (use span element and class equal to this 
+.text-highlight{
+    color: blue;
+}
+*/
+
+h2{
+    text-align: center;
+}
+
+
+@media screen and (min-width:800px){
+    .row{
+        flex-direction: row;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+}
+
+/* services.tb {
+    opacity: 1.0;
+}
+
+services.tb p {
+    font-weight: bold;
+    color: black;
+} */

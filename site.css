@@ -1,0 +1,250 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0%;   
+}
+
+section {
+    margin:0 auto;
+    padding: 1.5rem;
+}
+
+.container {
+    max-width:800px;
+    margin:0 auto; 
+    overflow-x: 0 auto; 
+}
+
+.dark-section {
+    color: white;
+    background-color:#118C4F;  
+}
+
+.light-section {
+    color: black;
+    background-color:#f9dadb;     
+}
+
+/* div{
+    word-wrap: break-word;
+} */
+
+.img-responsive {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto; 
+    background-color:#118C4F 
+}
+
+.title img {
+    margin: 1rem 0rem 1rem 0rem;
+}
+  
+.title .banner {
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    color: #f9dadb;
+}
+
+.services-bg {
+    background: url("img/DNS solutions.jpg") no-repeat center center fixed;
+    background-color: rgba(17,140,79,1);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.calculator-bg {
+    background: url("img/calculator.jpg") no-repeat center center fixed;
+    background-attachment:fixed;
+    background-size: cover;
+    opacity: 0.9;       
+    
+}
+
+.contact-bg {
+    background: url("img/portal.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.7;       
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    flex-grow: 1;
+}
+
+/* if I want to change the color of a word or words (use span element and class equal to this 
+.text-highlight{
+    color: blue;
+}
+*/
+
+h2{
+    text-align: center;
+}
+/* make background not run over footer */
+html:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    position: fixed;
+}
+
+/* CSS for Hamburger */
+button#hamburgerbtn {
+    background: none;
+    border: nonecolor #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+  }
+  
+  /* .login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    color: green;
+    background-color: black;
+  }
+  
+  .login li {
+    margin: 0rem 3rem 0rem 3rem;
+  } */
+  
+  /*CSS for Navigation*/
+  .menunav {
+      width:100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  .menunav li {
+    list-style: none;
+  }
+  
+  .navdiv {
+    background-color:#118C4F ;
+    width: 110%;
+    list-style: none;
+    text-decoration: none;
+    font-size: .9rem;
+    margin: auto;
+  }
+  
+  .navdiv li {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 1rem;
+  }
+  
+  .navdiv a {
+    padding: 1rem 2rem 1rem 001rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: .9rem;
+    width: 100%;
+  }
+  
+  /* nav li.active {
+    background-color: #f9dadb;
+    width: 100%;
+    
+  } */
+    
+  nav ul.open {
+    display: block;
+  }
+  nav a:hover {
+    background-color:#f9dadb;
+    color:#118C4F;
+    width: 100%;
+  }
+
+  
+  nav ul {
+    display:none;
+  }
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+} */
+
+@media screen and (min-width:800px){
+    .row{
+        flex-direction: row;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+    nav ul {
+        display:block;
+        width:40%;
+      }
+      .menunav ul {
+        width:100%;
+
+      }
+      .menunav .row {
+        width:100%;
+        margin:auto;
+      }
+      nav button {
+          display:none;
+      }
+      nav ul {
+          display:flex;
+          width:40%;
+          flex-grow:1;
+      }
+      nav li {
+          width:100%;
+          padding:0;
+          margin:0;
+      }
+      nav a {padding:.8rem 3rem;}
+}
+
+/* services.tb {
+    opacity: 1.0;
+}
+
+services.tb p {
+    font-weight: bold;
+    color: black;
+} */
